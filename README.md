@@ -1,5 +1,5 @@
 # Firebase Web Codelab - Example Project
 
-This folder contains the starting code for the [Firebase: Build a Real Time Web Chat App Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/).
+I build this project with follow [this](https://codelabs.developers.google.com/codelabs/firebase-web/) tutorial. 
 
 You can access project site [here](https://fir-webexam.web.app/)
