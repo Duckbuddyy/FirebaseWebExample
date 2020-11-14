@@ -1,15 +1,5 @@
-# WTM Summit 2019 Firebase Workshop
+# Firebase Web Codelab - Start code
 
-Check out each step:
-* https://stackblitz.com/edit/wtm-start
-* https://stackblitz.com/edit/wtm-checkpoint1
-* https://stackblitz.com/edit/wtm-checkpoint2
-* https://stackblitz.com/edit/wtm-checkpoint3
-* https://stackblitz.com/edit/wtm-next-steps
+This folder contains the starting code for the [Firebase: Build a Real Time Web Chat App Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/).
 
-### How to use
-1) Create a project in the Firebase console
-2) Enable
-* Firestore (with rules in test mode) - https://console.firebase.google.com/u/0/project/_/database
-* Email / Password Auth -  https://console.firebase.google.com/u/0/project/_/authentication/providers
-3) Add a web app, and add the config snippet to index.js after `// Add Firebase config here`- https://console.firebase.google.com/u/0/project/_/settings/general/web
+If you'd like to jump directly to the end and see the finished code head to the [web](../web) directory.

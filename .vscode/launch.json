@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:5000",
+            "disableNetworkCache": true,
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "pwa-chrome",
+            "preLaunchTask": "Serve",
+            "request": "launch",
+            "name": "Debug",
+            "url": "http://localhost:5000",
+            "disableNetworkCache": true,
+            "postDebugTask": "Terminate"
+        }
+    ]
+}

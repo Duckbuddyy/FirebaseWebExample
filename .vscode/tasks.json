@@ -1,0 +1,34 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Firebase Web",
+            "type": "shell",
+            "command": "firebase serve --only hosting",
+            "problemMatcher": {
+                "base": "$tsc-watch",
+                "applyTo": "allDocuments",
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".",
+                    "endsPattern": "http://localhost:5000",
+                },
+            },
+            "isBackground": true,
+            "promptOnClose": true,
+        },
+        {
+            "label": "Serve",
+            "dependsOn": [
+                "Firebase Web",
+            ],
+        },
+        {
+            "label": "Terminate",
+            "type": "process",
+            "command": "${command:workbench.action.tasks.terminate}",
+        }
+    ]
+}
